@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
+<package name="com.toby.wcf.useronlinetimer">
+
+	<packageInformation>
+		<packageName>User Online Timer</packageName>
+		<packageDescription>Zeigt wie lange ein User Online war</packageDescription>
+		<version>2.6.0</version>
+		<date>2009-04-15</date>
+		<plugin>com.woltlab.wcf</plugin>
+	</packageInformation>
+
+	<authorInformation>
+		<author>Tobias Friebel</author>
+		<authorURL>http://wbbmods.tobyf.de/trac/</authorURL>
+	</authorInformation>
+
+	<requiredPackages>
+		<requiredPackage>com.woltlab.wcf</requiredPackage>
+	</requiredPackages>
+
+	<instructions type="install">
+		<files>files.tar</files>
+		<eventlistener>eventlistener.xml</eventlistener>
+		<options>options.xml</options>
+		<useroptions>useroptions.xml</useroptions>
+		<languages languagecode="de">de.utf-8.xml</languages>
+		<languages languagecode="de-informal">de-informal.utf-8.xml</languages>
+		<languages languagecode="en">en.utf-8.xml</languages>
+	</instructions>
+
+	<instructions type="update" fromversion="2.5.1">
+		<files>files.tar</files>
+		<languages languagecode="de">de.utf-8.xml</languages>
+		<languages languagecode="de-informal">de-informal.utf-8.xml</languages>
+		<languages languagecode="en">en.utf-8.xml</languages>
+	</instructions>
+</package>

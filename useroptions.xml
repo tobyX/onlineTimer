@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.dcom/DTD/options.dtd">
+<data>
+	<import>
+		<options>
+			<option name="userOnlineTimerLastactivity">
+				<categoryname>profile.personal</categoryname>
+				<optiontype>integer</optiontype>
+				<visible>4</visible>
+				<editable>4</editable>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="userOnlineTimerOnlinetime">
+				<categoryname>profile.personal</categoryname>
+				<optiontype>integer</optiontype>
+				<visible>0</visible>
+				<editable>4</editable>
+				<defaultvalue>0</defaultvalue>
+				<outputclass>UserOptionOutputOnlinetime</outputclass>
+			</option>
+		</options>
+	</import>
+</data>

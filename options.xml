@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/options.dtd">
+<data>
+	<import>
+		<categories>
+			<category name="user.onlinetimer">
+				<parent>user</parent>
+			</category>
+		</categories>
+
+		<options>
+			<option name="onlinetimer_timeout">
+				<categoryname>user.onlinetimer</categoryname>
+				<optiontype>integer</optiontype>
+				<showorder>2</showorder>
+				<defaultvalue>300</defaultvalue>
+			</option>
+			<option name="onlinetimer_format">
+				<categoryname>user.onlinetimer</categoryname>
+				<optiontype>text</optiontype>
+				<showorder>1</showorder>
+				<defaultvalue>%d, %h, %m, %s</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>
