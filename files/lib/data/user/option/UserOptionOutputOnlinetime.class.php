@@ -1,10 +1,10 @@
 <?php
 /*
- * +-----------------------------------------+
- * | Copyright (c) 2009 Tobias Friebel       |
- * +-----------------------------------------+
- * | Authors: Tobias Friebel <TobyF@Web.de>	 |
- * +-----------------------------------------+
+ * +------------------------------------------------+
+ * | Copyright (c) 2012 Tobias Friebel       		|
+ * +------------------------------------------------+
+ * | Authors: Tobias Friebel <Entwicklung@TobyF.de>	|
+ * +------------------------------------------------+
  *
  * CC Namensnennung-Keine kommerzielle Nutzung-Keine Bearbeitung
  * http://creativecommons.org/licenses/by-nc-nd/2.0/de/
