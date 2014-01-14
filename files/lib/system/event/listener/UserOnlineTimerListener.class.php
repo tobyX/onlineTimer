@@ -1,20 +1,19 @@
 <?php
-/*
- * +-----------------------------------------+
- * | Copyright (c) 2009 Tobias Friebel       |
- * +-----------------------------------------+
- * | Authors: Tobias Friebel <TobyF@Web.de>	 |
- * +-----------------------------------------+
+
+namespace wbb\system\event\listener;
+
+use wcf\system\event\IEventListener;
+use wcf\system\WCF;
+
+/**
+ * Count time user stays in forum
  *
- * CC Namensnennung-Keine kommerzielle Nutzung-Keine Bearbeitung
- * http://creativecommons.org/licenses/by-nc-nd/2.0/de/
- *
- * $Id: UserOnlineTimerListener.class.php 192 2009-02-15 15:36:52Z toby $
+ * @author	Tobias Friebel <woltlab@tobyf.de>
+ * @copyright	2014 Tobias Friebel
+ * @license	Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International <http://creativecommons.org/licenses/by-nc-nd/4.0/deed.en>
+ * @package	com.toby.wcf.onlinetimer
  */
-
-require_once (WCF_DIR . 'lib/system/event/EventListener.class.php');
-
-class UserOnlineTimerListener implements EventListener
+class UserOnlineTimerListener implements IEventListener
 {
 	/**
 	 * @see EventListener::execute()
@@ -51,4 +50,3 @@ class UserOnlineTimerListener implements EventListener
 		}
 	}
 }
-?>

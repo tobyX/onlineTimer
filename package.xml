@@ -1,48 +1,40 @@
-<?xml version="1.0"?>
-<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
-<package name="com.toby.wcf.useronlinetimer">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE package SYSTEM "DTD/package.dtd">
+<package xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd"
+	name="com.toby.wcf.onlinetimer">
 
-	<packageInformation>
-		<packageName>User Online Timer</packageName>
-		<packageDescription>Zeigt wie lange ein User Online war</packageDescription>
-		<version>2.7.0</version>
-		<date>2012-01-01</date>
-		<plugin>com.woltlab.wcf</plugin>
-	</packageInformation>
+	<packageinformation>
+		<packagename>User Online Timer</packagename>
+		<packagename language="de"><![CDATA[User Online Timer]]></packagename>
+		<packagedescription><![CDATA[Shows how long a user was active in forum]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Zeigt wie lange ein User Online war]]></packagedescription>
+		<version>3.0.0 Alpha 1</version>
+		<date>2013-01-14</date>
+		<license><![CDATA[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International <http://creativecommons.org/licenses/by-nc-nd/4.0/deed.en>]]></license>
+	</packageinformation>
 
-	<authorInformation>
-		<author>Tobias Friebel</author>
-		<authorURL>http://wbbmods.tobyf.de/trac/</authorURL>
-	</authorInformation>
+	<authorinformation>
+		<author><![CDATA[Tobias Friebel]]></author>
+		<authorurl><![CDATA[http://www.enigma-forum.de/]]></authorurl>
+	</authorinformation>
 
-	<requiredPackages>
-		<requiredPackage>com.woltlab.wcf</requiredPackage>
-	</requiredPackages>
+	<requiredpackages>
+		<requiredpackage minversion="2.0.*">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
 
 	<instructions type="install">
-		<files>files.tar</files>
-		<eventlistener>eventlistener.xml</eventlistener>
-		<options>options.xml</options>
-		<useroptions>useroptions.xml</useroptions>
-		<bbcodes>bbcodes.xml</bbcodes>
-		<languages languagecode="de">de.utf-8.xml</languages>
-		<languages languagecode="de-informal">de-informal.utf-8.xml</languages>
-		<languages languagecode="en">en.utf-8.xml</languages>
+		<!-- files -->
+		<instruction type="file" application="wbb">files.tar</instruction>
+
+		<!-- config -->
+		<instruction type="option">option.xml</instruction>
+		<instruction type="eventListener">eventListener.xml</instruction>
+		<instruction type="userOption">userOption.xml</instruction>
+		<instruction type="bbcode">bbcodes.xml</instruction>
+
+		<!-- languages -->
+		<instruction type="language">language/*.xml</instruction>
 	</instructions>
 
-	<instructions type="update" fromversion="2.5.1">
-		<files>files.tar</files>
-		<bbcodes>bbcodes.xml</bbcodes>
-		<languages languagecode="de">de.utf-8.xml</languages>
-		<languages languagecode="de-informal">de-informal.utf-8.xml</languages>
-		<languages languagecode="en">en.utf-8.xml</languages>
-	</instructions>
-
-	<instructions type="update" fromversion="2.6*">
-		<files>files.tar</files>
-		<bbcodes>bbcodes.xml</bbcodes>
-		<languages languagecode="de">de.utf-8.xml</languages>
-		<languages languagecode="de-informal">de-informal.utf-8.xml</languages>
-		<languages languagecode="en">en.utf-8.xml</languages>
-	</instructions>
 </package>

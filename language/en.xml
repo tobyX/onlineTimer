@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd"
+	languagecode="en" languagename="English" countrycode="gb
+
+	<category name="wcf.user.onlineTimer">
+		<item name="wcf.user.onlineTimer.year"><![CDATA[Year]]></item>
+		<item name="wcf.user.onlineTimer.years"><![CDATA[Years]]></item>
+		<item name="wcf.user.onlineTimer.month"><![CDATA[Month]]></item>
+		<item name="wcf.user.onlineTimer.months"><![CDATA[Months]]></item>
+		<item name="wcf.user.onlineTimer.week"><![CDATA[Week]]></item>
+		<item name="wcf.user.onlineTimer.weeks"><![CDATA[Weeks]]></item>
+		<item name="wcf.user.onlineTimer.day"><![CDATA[Day]]></item>
+		<item name="wcf.user.onlineTimer.days"><![CDATA[Days]]></item>
+		<item name="wcf.user.onlineTimer.hour"><![CDATA[Hour]]></item>
+		<item name="wcf.user.onlineTimer.hours"><![CDATA[Hours]]></item>
+		<item name="wcf.user.onlineTimer.minute"><![CDATA[Minute]]></item>
+		<item name="wcf.user.onlineTimer.minutes"><![CDATA[Minutes]]></item>
+		<item name="wcf.user.onlineTimer.second"><![CDATA[Second]]></item>
+		<item name="wcf.user.onlineTimer.seconds"><![CDATA[Seconds]]></item>
+	</category>
+
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.userOnlineTimerOnlinetime"><![CDATA[Onlinetime]]></item>
+	</category>
+
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.user.onlinetimer"><![CDATA[Onlinetimer]]></item>
+		<item name="wcf.acp.option.category.user.onlinetimer.description"><![CDATA[Measure the time spent in the forum]]></item>
+		<item name="wcf.acp.option.onlinetimer_timeout"><![CDATA[Timeout]]></item>
+		<item name="wcf.acp.option.onlinetimer_timeout.description"><![CDATA[How many seconds should it take to assume a new visit?]]></item>
+		<item name="wcf.acp.option.onlinetimer_format"><![CDATA[Format]]></item>
+		<item name="wcf.acp.option.onlinetimer_format.description"><![CDATA[Here you can define the display format in the profiles. The following placeholders are available: %y for years, %b for months, %w for weeks, %d for day, %h for hour, %m for minutes, %s for seconds. Every placeholder will be replaced with the corresponding count and description, there will be single and plural descriptions. The corresponding linguistic variables can be found at wcf.user.onlineTimer]]></item>
+	</category>
+
+</language>

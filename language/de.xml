@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd"
+	languagecode="de" languagename="Deutsch" countrycode="de">
+
+	<category name="wcf.user.onlineTimer">
+		<item name="wcf.user.onlineTimer.year"><![CDATA[Jahr]]></item>
+		<item name="wcf.user.onlineTimer.years"><![CDATA[Jahre]]></item>
+		<item name="wcf.user.onlineTimer.month"><![CDATA[Monat]]></item>
+		<item name="wcf.user.onlineTimer.months"><![CDATA[Monate]]></item>
+		<item name="wcf.user.onlineTimer.week"><![CDATA[Woche]]></item>
+		<item name="wcf.user.onlineTimer.weeks"><![CDATA[Wochen]]></item>
+		<item name="wcf.user.onlineTimer.day"><![CDATA[Tag]]></item>
+		<item name="wcf.user.onlineTimer.days"><![CDATA[Tage]]></item>
+		<item name="wcf.user.onlineTimer.hour"><![CDATA[Stunde]]></item>
+		<item name="wcf.user.onlineTimer.hours"><![CDATA[Stunden]]></item>
+		<item name="wcf.user.onlineTimer.minute"><![CDATA[Minute]]></item>
+		<item name="wcf.user.onlineTimer.minutes"><![CDATA[Minuten]]></item>
+		<item name="wcf.user.onlineTimer.second"><![CDATA[Sekunde]]></item>
+		<item name="wcf.user.onlineTimer.seconds"><![CDATA[Sekunden]]></item>
+	</category>
+
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.userOnlineTimerOnlinetime"><![CDATA[Onlinezeit]]></item>
+	</category>
+
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.user.onlinetimer"><![CDATA[Onlinetimer]]></item>
+		<item name="wcf.acp.option.category.user.onlinetimer.description"><![CDATA[Die im Forum verbrachte Zeit messen]]></item>
+		<item name="wcf.acp.option.onlinetimer_timeout"><![CDATA[Timeout]]></item>
+		<item name="wcf.acp.option.onlinetimer_timeout.description"><![CDATA[Ab wievielen Sekunden soll die Besuchszeit neu gezählt werden?]]></item>
+		<item name="wcf.acp.option.onlinetimer_format"><![CDATA[Anzeigeformat]]></item>
+		<item name="wcf.acp.option.onlinetimer_format.description"><![CDATA[Hier kann das Format der Zeitanzeige im Profil definiert werden. Dabei sind folgende Angaben möglich: %y für Jahre, %b für Monate, %w für Wochen, %d für Tage, %h für Stunden, %m für Minuten, %s für Sekunden. Jeder dieser Platzhalter wird durch die entsprechende Zahl und entsprechende Bezeichnung ersetzt, dabei gibt es Ein- und Mehrzahl. Die entsprechenden Sprachvariablen finden sich unter wcf.user.onlineTimer]]></item>
+	</category>
+
+</language>
