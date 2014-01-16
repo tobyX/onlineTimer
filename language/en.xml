@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd"
-	languagecode="en" languagename="English" countrycode="gb
+	languagecode="en" languagename="English" countrycode="gb">
 
 	<category name="wcf.user.onlineTimer">
 		<item name="wcf.user.onlineTimer.year"><![CDATA[Year]]></item>
@@ -21,7 +21,7 @@
 	</category>
 
 	<category name="wcf.user.option">
-		<item name="wcf.user.option.userOnlineTimerOnlinetime"><![CDATA[Onlinetime]]></item>
+		<item name="wcf.user.option.onlineTimerCounter"><![CDATA[Onlinetime]]></item>
 	</category>
 
 	<category name="wcf.acp.option">

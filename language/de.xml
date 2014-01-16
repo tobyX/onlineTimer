@@ -21,7 +21,7 @@
 	</category>
 
 	<category name="wcf.user.option">
-		<item name="wcf.user.option.userOnlineTimerOnlinetime"><![CDATA[Onlinezeit]]></item>
+		<item name="wcf.user.option.onlineTimerCounter"><![CDATA[Onlinezeit]]></item>
 	</category>
 
 	<category name="wcf.acp.option">
