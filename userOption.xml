@@ -4,7 +4,7 @@
 	<import>
 		<options>
 			<option name="onlineTimerLastActivity">
-				<categoryname>profile.personal</categoryname>
+				<categoryname>settings.general</categoryname>
 				<optiontype>integer</optiontype>
 				<visible>0</visible>
 				<editable>0</editable>
