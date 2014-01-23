@@ -26,6 +26,9 @@ class OnlineTimerBBCode extends AbstractBBCode
 		else
 			$userID = intval($content);
 
+		if (!$userID)
+			return;
+
 		$user = UserProfile :: getUserProfile($userID);
 
 		$userOption = $user->getFormattedUserOption('onlineTimerCounter');
