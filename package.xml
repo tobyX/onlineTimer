@@ -9,7 +9,7 @@
 		<packagename language="de"><![CDATA[Online Timer]]></packagename>
 		<packagedescription><![CDATA[Shows how long a user was really active in forum]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Zeigt wie lange ein User wirklich im Forum online war]]></packagedescription>
-		<version>3.0.0 Beta 1</version>
+		<version>3.0.0 Beta 2</version>
 		<date>2014-01-16</date>
 		<license><![CDATA[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International <http://creativecommons.org/licenses/by-nc-nd/4.0/deed.en>]]></license>
 	</packageinformation>
@@ -35,6 +35,11 @@
 
 		<!-- languages -->
 		<instruction type="language">language/*.xml</instruction>
+	</instructions>
+
+	<instructions type="update" fromversion="3.0.0 Beta 1">
+		<!-- files -->
+		<instruction type="file" application="wcf">files.tar</instruction>
 	</instructions>
 
 </package>
